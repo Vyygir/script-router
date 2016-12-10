@@ -1,3 +1,7 @@
+<a href="https://travis-ci.org/Vyygir/script-router">
+	<img src="https://travis-ci.org/Vyygir/script-router.svg?branch=master)" align="right">
+</a>
+
 # Script Router #
 
 This plugin has been developed so that you're able to load specific scripts into your website
