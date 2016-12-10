@@ -53,10 +53,8 @@ function get_current_route() {
 	} elseif (is_author()) {
 		$routes[] = 'author';
 	} elseif (is_archive()) {
-		$routes = array(
-			'archive',
-			sprintf('archive/%s', get_post_type())
-		);
+		$routes[] = 'archive';
+		$routes[] = sprintf('archive/%s', get_post_type());
 	} elseif (is_search()) {
 		$routes[] = 'search';
 	} elseif (is_attachment()) {
