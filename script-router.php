@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Script Router
  * Plugin URI: https://github.com/Vyygir/script-router
- * Version: 0.1.0
+ * Version: 0.1.1
  * Description: A very basic plugin to generate scripts to be loaded in, based on the current user's location on the website
  * Requires at least: 4.0
  * Author: Vyygir
