@@ -1,5 +1,5 @@
 <a href="https://travis-ci.org/Vyygir/script-router">
-	<img src="https://travis-ci.org/Vyygir/script-router.svg?branch=master)" align="right">
+	<img src="https://travis-ci.org/Vyygir/script-router.svg?branch=master" align="right">
 </a>
 
 # Script Router #
@@ -29,9 +29,9 @@ name them appropriately, and this plugin will handle the loading of them for you
 ## Development ##
 
 I can't promise or guarantee regular maintenance and updating of the plugin, so if you spot a
-route that hasn't been added, or tweak one that isn't picking up correctly, then please feel free
-to fork the repository, make your change, and then create a pull request back. Whilst I'm not
-regularly maintaining the code, that doesn't mean that I won't pick up pull requests.
+route that hasn't been added, or want to tweak one that isn't picking up correctly, then please
+feel free to fork the repository, make your change, and then create a pull request back. Whilst
+I'm not regularly maintaining the code, that doesn't mean that I won't pick up pull requests.
 
 I will only accept commits that follow the same code standards as my own - so make sure that you
 set your IDE to your tabs! The code is fairly straightforward though, so picking it up and
@@ -48,8 +48,7 @@ If you're creating an issue, do remember do provide a decent description of your
 coherent and sensible way, otherwise I'm not going to be able to help you and you'll be left in
 the lurch.
 
-### Changelog ###
+## Changelog ##
 
-| Version | Date       | Description |
-| ------- | :--------: | ----------- |
-| 0.1.0   | 10/12/2016 | The plugin was created |
+To view in-depth changes on a per-version basis, then see the
+[releases](https://github.com/Vyygir/script-router/releases) page.
