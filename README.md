@@ -2,6 +2,11 @@
 	<img src="https://travis-ci.org/Vyygir/script-router.svg?branch=master" align="right">
 </a>
 
+<a href="https://packagist.org/packages/vyygir/script-router">
+	<img src="https://poser.pugx.org/vyygir/script-router/downloads.svg" align="right">
+	<img src="https://poser.pugx.org/vyygir/script-router/v/stable.svg" align="right">
+</a>
+
 # Script Router #
 
 This plugin has been developed so that you're able to load specific scripts into your website
