@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Script Router
  * Plugin URI: https://github.com/Vyygir/script-router
- * Version: 0.1.1
+ * Version: 0.1.2
  * Description: A very basic plugin to generate scripts to be loaded in, based on the current user's location on the website
  * Requires at least: 4.0
  * Author: Vyygir
@@ -38,15 +38,19 @@ function get_current_route() {
 		$routes[] = 'single';
 		$routes[] = sprintf('single/%s', get_post_type($post->ID));
 		$routes[] = sprintf('single/%s', $post->ID);
-	} elseif (is_category() || is_tag()) {
+	} elseif (is_category()) {
 		$_category = get_queried_object();
 		$routes[] = 'category';
-		$routes[] = sprintf('category/%s', $_category->taxonomy);
 		$routes[] = sprintf('category/%s', $_category->slug);
 		$routes[] = sprintf('category/%s', $_category->term_id);
+	} elseif (is_tag()) {
+		$_tag = get_queried_object();
+		$routes[] = 'tag';
+		$routes[] = sprintf('tag/%s', $_tag->slug);
+		$routes[] = sprintf('tag/%s', $_tag->term_id);
 	} elseif (is_tax()) {
 		$_taxonomy = get_queried_object();
-		$routes[] = 'category';
+		$routes[] = 'taxonomy';
 		$routes[] = sprintf('taxonomy/%s', $_taxonomy->taxonomy);
 		$routes[] = sprintf('taxonomy/%s', $_taxonomy->slug);
 		$routes[] = sprintf('taxonomy/%s', $_taxonomy->term_id);
