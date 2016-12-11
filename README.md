@@ -4,6 +4,9 @@
 
 <a href="https://packagist.org/packages/vyygir/script-router">
 	<img src="https://poser.pugx.org/vyygir/script-router/downloads.svg" align="right">
+</a>
+
+<a href="https://packagist.org/packages/vyygir/script-router">
 	<img src="https://poser.pugx.org/vyygir/script-router/v/stable.svg" align="right">
 </a>
 
