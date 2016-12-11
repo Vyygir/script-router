@@ -2,6 +2,7 @@
     "name": "vyygir/script-router",
     "description": "A very basic plugin to generate scripts to be loaded in, based on the current user's location on the website",
     "type": "wordpress-plugin",
+	"license": "GPL-2.0",
     "authors": [
         {
             "name": "Vyygir",

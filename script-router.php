@@ -7,6 +7,7 @@
  * Requires at least: 4.0
  * Author: Vyygir
  * Author URI: http://vyygir.me
+ * License: GPL2
  *
  * @package WordPress
 **/
