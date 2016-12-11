@@ -20,7 +20,7 @@ define('THEME_JS_PATH', THEME_PATH . '/js');
 define('THEME_JS_URL', THEME_URL . '/js');
 
 function get_current_route() {
-	$routes = array('defaults');
+	$routes = array('default');
 
 	if (is_home()) {
 		$routes[] = 'home';
