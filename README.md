@@ -1,14 +1,8 @@
-<a href="https://travis-ci.org/Vyygir/script-router">
-	<img src="https://travis-ci.org/Vyygir/script-router.svg?branch=master" align="right">
-</a>
-
-<a href="https://packagist.org/packages/vyygir/script-router">
-	<img src="https://poser.pugx.org/vyygir/script-router/downloads.svg" align="right">
-</a>
-
-<a href="https://packagist.org/packages/vyygir/script-router">
-	<img src="https://poser.pugx.org/vyygir/script-router/v/stable.svg" align="right">
-</a>
+<p align="center">
+<a href="https://travis-ci.org/Vyygir/script-router"><img src="https://travis-ci.org/Vyygir/script-router.svg?branch=master"></a>
+<a href="https://packagist.org/packages/vyygir/script-router"><img src="https://poser.pugx.org/vyygir/script-router/downloads.svg"></a>
+<a href="https://packagist.org/packages/vyygir/script-router"><img src="https://poser.pugx.org/vyygir/script-router/v/stable.svg"></a>
+</p>
 
 # Script Router #
 
